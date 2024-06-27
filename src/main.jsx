@@ -5,8 +5,10 @@ import {AppRoutes} from './router/index'
 import {BrowserRouter} from "react-router-dom"
 import {RecoilRoot} from "recoil"
 
-import "./style.css"
+
 import '@coreui/coreui/dist/css/coreui.min.css'
+import 'react-awesome-slider/dist/styles.css';
+import "./style.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RecoilRoot>
