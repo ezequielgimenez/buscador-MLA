@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import AwesomeSlider from 'react-awesome-slider';
 
-import { useSearchItem } from "../hooks/hooks.tsx";
+import { useSearchItem } from "../hooks/hooks";
 
 export function SearchItem(){
     const results =  useSearchItem()

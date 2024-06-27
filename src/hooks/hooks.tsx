@@ -4,16 +4,16 @@ import { useParams } from "react-router-dom";
 import { useRecoilState, useRecoilValue } from "recoil";
 
 // state query form
-    import {queryState} from "../atom.tsx"
+    import {queryState} from "../atom"
     // selector
-    import { resultsState } from "../atom.tsx";
+    import { resultsState } from "../atom";
 
 ////
 
 //state query id product 
-    import { idParam } from "../atom.tsx";
+    import { idParam } from "../atom";
     // selector
-    import { resultItem } from "../atom.tsx";
+    import { resultItem } from "../atom";
 //
 
 export function useSearchResults(){

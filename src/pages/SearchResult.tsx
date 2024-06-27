@@ -1,6 +1,6 @@
 import React, {useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useSearchResults } from "../hooks/hooks.tsx";
+import { useSearchResults } from "../hooks/hooks";
 
 
 export function SearchResult(){
